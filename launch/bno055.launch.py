@@ -34,7 +34,7 @@ def generate_launch_description():
     ld = LaunchDescription()
     config = os.path.join(
         get_package_share_directory('bno055'),
-        'config',
+        'params',
         'bno055_params.yaml'
         )
         
